@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		D789622B23EB3FFE006A0960 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D789622923EB3FFE006A0960 /* Main.storyboard */; };
 		D789622D23EB3FFE006A0960 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D789622C23EB3FFE006A0960 /* Assets.xcassets */; };
 		D789623023EB3FFF006A0960 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D789622E23EB3FFF006A0960 /* LaunchScreen.storyboard */; };
+		D789623D23EB4215006A0960 /* AbejitaFormular in Frameworks */ = {isa = PBXBuildFile; productRef = D789623C23EB4215006A0960 /* AbejitaFormular */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D789622C23EB3FFE006A0960 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D789622F23EB3FFF006A0960 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D789623123EB3FFF006A0960 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D789623E23EB4234006A0960 /* AbejitaFormular */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AbejitaFormular; path = ../../AbejitaFormular; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D789623D23EB4215006A0960 /* AbejitaFormular in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +59,7 @@
 		D789622223EB3FFE006A0960 /* AbejitaFormularExample */ = {
 			isa = PBXGroup;
 			children = (
+				D789623E23EB4234006A0960 /* AbejitaFormular */,
 				D789622323EB3FFE006A0960 /* AppDelegate.swift */,
 				D789622523EB3FFE006A0960 /* SceneDelegate.swift */,
 				D789622723EB3FFE006A0960 /* ViewController.swift */,
@@ -83,6 +87,9 @@
 			dependencies = (
 			);
 			name = AbejitaFormularExample;
+			packageProductDependencies = (
+				D789623C23EB4215006A0960 /* AbejitaFormular */,
+			);
 			productName = AbejitaFormularExample;
 			productReference = D789622023EB3FFE006A0960 /* AbejitaFormularExample.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +118,9 @@
 				Base,
 			);
 			mainGroup = D789621723EB3FFE006A0960;
+			packageReferences = (
+				D789623B23EB4215006A0960 /* XCRemoteSwiftPackageReference "AbejitaFormular" */,
+			);
 			productRefGroup = D789622123EB3FFE006A0960 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -338,6 +348,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D789623B23EB4215006A0960 /* XCRemoteSwiftPackageReference "AbejitaFormular" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kwiessle/AbejitaFormular.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D789623C23EB4215006A0960 /* AbejitaFormular */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D789623B23EB4215006A0960 /* XCRemoteSwiftPackageReference "AbejitaFormular" */;
+			productName = AbejitaFormular;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D789621823EB3FFE006A0960 /* Project object */;
 }

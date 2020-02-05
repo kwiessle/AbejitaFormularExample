@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "AbejitaFormular",
+        "repositoryURL": "https://github.com/kwiessle/AbejitaFormular.git",
+        "state": {
+          "branch": "master",
+          "revision": "60ce762333b15bbddb8fc57cfd4d286f21c9b334",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
